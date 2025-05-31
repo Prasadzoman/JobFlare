@@ -20,13 +20,10 @@ const userRouter = require('./routes/user');
 const app = express();
 
 const url=`mongodb+srv://${process.env.USER_NAME}:${process.env.MONGO_PASSWORD}@cluster0.sfyzlcb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
-app.use(cors({
-  origin: [
-    "http://localhost:5173",               
-    "https://jobflare-client.onrender.com"
-  ],
 
-  credentials: true
+app.use(cors({
+  origin: 'https://jobflare-client.onrender.com',
+  credentials: true  
 }));
 
 app.use(express.json());
@@ -53,8 +50,8 @@ const sessionOptions = {
   cookie: {
     httpOnly: true,
     maxAge: 7 * 24 * 60 * 60 * 1000,
-    secure: process.env.NODE_ENV === "production", 
-    sameSite: process.env.NODE_ENV === "production" ? "none" : "lax", 
+    secure: true,
+    sameSite: "none", 
   }
 };
 app.use(session(sessionOptions));
