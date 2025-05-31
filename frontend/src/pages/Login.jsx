@@ -26,7 +26,7 @@ const Login = () => {
 
     try {
       const res = await axios.post(
-        'http://localhost:3000/user/login',
+        'https://jobflare.onrender.com/user/login',
         formData,
         { withCredentials: true }
       );

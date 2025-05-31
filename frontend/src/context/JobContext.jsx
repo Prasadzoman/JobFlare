@@ -8,7 +8,7 @@ export const JobProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   useEffect(() => {
     const fetchJob = async () => {
-      const result = await fetch('http://localhost:3000/listings')
+      const result = await fetch('https://jobflare.onrender.com/listings')
       const res = await result.json();
       console.log(res)
       setJobs(res);
@@ -19,7 +19,7 @@ export const JobProvider = ({ children }) => {
 
   const checkAuth = async () => {
     try {
-      const res = await axios.get('http://localhost:3000/user/me', { withCredentials: true });
+      const res = await axios.get('https://jobflare.onrender.com/user/me', { withCredentials: true });
       setUser(res.data.user);
     } catch {
       setUser(null);

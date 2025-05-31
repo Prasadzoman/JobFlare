@@ -28,7 +28,7 @@ const New = () => {
 
     const sendReq = async (form) => {
         try {
-            const res = await axios.post("http://localhost:3000/listings", form, {
+            const res = await axios.post("https://jobflare.onrender.com/listings", form, {
                 headers: { "Content-Type": "multipart/form-data" },
                 withCredentials: true
             });

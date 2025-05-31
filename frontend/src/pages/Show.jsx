@@ -19,7 +19,7 @@ const Show = () => {
   useEffect(() => {
     const fetchJob = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/listings/${id}`);
+        const res = await fetch(`https://jobflare.onrender.com/listings/${id}`);
         if (!res.ok) throw new Error("Job not found");
         const data = await res.json();
         setJob(data);
@@ -34,7 +34,7 @@ const Show = () => {
 
   const deleteJob = async () => {
     try {
-      const res = await axios.delete(`http://localhost:3000/listings/${id}`, {
+      const res = await axios.delete(`https://jobflare.onrender.com/listings/${id}`, {
         withCredentials: true
       });
       const data = await res.data;

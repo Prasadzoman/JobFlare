@@ -12,7 +12,7 @@ const NavBar = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.post('http://localhost:3000/user/logout', {}, { withCredentials: true });
+      await axios.post('https://jobflare.onrender.com/user/logout', {}, { withCredentials: true });
       setUser(null);
       navigate('/login');
     } catch (err) {

@@ -11,7 +11,7 @@ const ShowApplications = () => {
   useEffect(() => {
     const fetchApplications = async () => {
       try {
-        const res = await axios.get(`http://localhost:3000/applications/${id}`, {
+        const res = await axios.get(`https://jobflare.onrender.com/applications/${id}`, {
           withCredentials: true
         });
         setApplications(res.data);

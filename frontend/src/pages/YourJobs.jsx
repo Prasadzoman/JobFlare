@@ -13,7 +13,7 @@ const YourJobs = () => {
       if (!user?._id) return;
 
       try {
-        const res = await fetch(`http://localhost:3000/user/${user._id}`,{
+        const res = await fetch(`https://jobflare.onrender.com/user/${user._id}`,{
       credentials: 'include', 
     });
         const data = await res.json();

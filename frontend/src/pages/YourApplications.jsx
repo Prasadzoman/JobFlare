@@ -7,7 +7,7 @@ const YourApplications = () => {
   useEffect(() => {
     const fetchApp = async () => {
       try {
-        const res = await fetch('http://localhost:3000/user/applications', {
+        const res = await fetch('https://jobflare.onrender.com/user/applications', {
           credentials: 'include',   
         });
 

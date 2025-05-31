@@ -63,7 +63,7 @@ const ApplyPage = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/applications", formData, {
+      const res = await axios.post("https://jobflare.onrender.com/applications", formData, {
         headers: { "Content-Type": "multipart/form-data" },
         withCredentials: true
       });

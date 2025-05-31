@@ -26,11 +26,11 @@ const Register = () => {
     setError('');
     try {
       await axios.post(
-        'http://localhost:3000/user/register',
+        'https://jobflare.onrender.com/user/register',
         formData,
         { withCredentials: true }
       );
-      const res = await axios.get('http://localhost:3000/user/me', {
+      const res = await axios.get('https://jobflare.onrender.com/user/me', {
       withCredentials: true,
     });
       setUser(res.data.user)

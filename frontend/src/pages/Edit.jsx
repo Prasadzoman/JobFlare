@@ -32,7 +32,7 @@ const Edit = () => {
   useEffect(() => {
     const fetchJob = async () => {
       try {
-        const res = await axios.get(`http://localhost:3000/listings/${id}`, {
+        const res = await axios.get(`https://jobflare.onrender.com/listings/${id}`, {
           withCredentials: true
         });
         const data = res.data;
@@ -71,7 +71,7 @@ const Edit = () => {
     }
 
     try {
-      await axios.put(`http://localhost:3000/listings/${id}`, formData, {
+      await axios.put(`https://jobflare.onrender.com/listings/${id}`, formData, {
         withCredentials: true,
         headers: {
           "Content-Type": "multipart/form-data"

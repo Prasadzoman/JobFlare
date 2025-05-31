@@ -11,13 +11,13 @@ const Landing = () => {
   const fetchJobs = async () => {
     try {
       if (skill) {
-        const res = await axios.get(`http://localhost:3000/listings/skills/${skill}`);
+        const res = await axios.get(`https://jobflare.onrender.com/listings/skills/${skill}`);
         setJobs(res.data);
       } else if (searchTerm) {
-        const res = await axios.get(`http://localhost:3000/listings/search?term=${searchTerm}`);
+        const res = await axios.get(`https://jobflare.onrender.com/listings/search?term=${searchTerm}`);
         setJobs(res.data);
       } else {
-        const res = await axios.get("http://localhost:3000/listings");
+        const res = await axios.get("https://jobflare.onrender.com/listings");
         setJobs(res.data);
       }
     } catch (error) {
