@@ -24,7 +24,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",               
     "https://jobflare-client.onrender.com"
-  ], 
+  ],
+  secure: process.env.NODE_ENV === "production",
   credentials: true
 }));
 
