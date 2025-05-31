@@ -24,7 +24,8 @@ const NavBar = () => {
     <Navbar expand="lg" bg="dark" variant="dark" sticky="top" className="py-3 shadow">
       <Container>
         <Navbar.Brand as={Link} to="/" className="fs-3 fw-bold text-info">
-          YourLogo
+          JobFlare
+          <i class="fa-solid fa-feather-pointed" style={{color:' #74C0FC'}}></i>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

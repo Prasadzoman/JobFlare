@@ -21,7 +21,10 @@ const app = express();
 
 const url=`mongodb+srv://${process.env.USER_NAME}:${process.env.MONGO_PASSWORD}@cluster0.sfyzlcb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 app.use(cors({
-  origin: 'http://localhost:5173', 
+  origin: [
+    "http://localhost:5173",               
+    "https://jobflare-client.onrender.com"
+  ], 
   credentials: true
 }));
 
