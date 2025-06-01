@@ -37,7 +37,7 @@ const Landing = () => {
 
   return (
     <div className="landing-body">
-      <div className="search-bar">
+      <div className="search-bar my-4" style={{width:'50vw'}}>
         <Form onSubmit={handleSearch} className="mb-4 d-flex">
         <Form.Control
           type="text"
@@ -51,6 +51,7 @@ const Landing = () => {
       </Form>
       </div>
       <Container className="my-4">
+        
       <div className="filters d-flex flex-nowrap gap-3 mb-4 overflow-auto">
         <div className="filter" onClick={() => setSkill("")}>
           <i className="fa-solid fa-list fa-2x"></i> <strong>All</strong>
