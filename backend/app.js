@@ -16,8 +16,8 @@ const User = require('./model/User');
 const listingRouter = require('./routes/listings');
 const applicationsRouter = require('./routes/applications');
 const userRouter = require('./routes/user');
-
 const app = express();
+app.set('trust proxy', 1);
 
 const url=`mongodb+srv://${process.env.USER_NAME}:${process.env.MONGO_PASSWORD}@cluster0.sfyzlcb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 
