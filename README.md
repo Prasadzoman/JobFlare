@@ -26,7 +26,7 @@ Backend API: [https://jobflare.onrender.com](https://jobflare.onrender.com)
 **Frontend:**
 - React.js
 - React Router
-- Bootstrap / Tailwind CSS
+- Bootstrap 
 
 **Backend:**
 - Node.js
