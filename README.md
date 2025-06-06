@@ -59,9 +59,6 @@ Backend API: [https://jobflare.onrender.com](https://jobflare.onrender.com)
 ![Screenshot 2025-06-06 180524](https://github.com/user-attachments/assets/5e768d60-a439-473c-8284-467c8bfbcc11)
 
 ---
-![Screenshot 2025-06-06 180524](https://github.com/user-attachments/assets/789d5ecf-8d65-495d-9710-b760de9ce95c)
-
----
 ![Screenshot 2025-06-06 180730](https://github.com/user-attachments/assets/22dfd535-9cad-419b-952f-88b3dbcbc2b5)
 
 ---
