@@ -2,6 +2,10 @@
 
 JobFlare is a full-stack job portal where recruiters can post jobs and manage applications, while job seekers can search and apply for jobs. Built with the MERN stack, it provides user-friendly interfaces for both recruiters and applicants.
 
+## 🌐 Live Demo
+Frontend: [https://jobflare-client.onrender.com](https://jobflare-client.onrender.com)  
+Backend API: [https://jobflare.onrender.com](https://jobflare.onrender.com)
+
 ## 🚀 Features
 
 ### For Job Seekers:
@@ -35,10 +39,4 @@ JobFlare is a full-stack job portal where recruiters can post jobs and manage ap
 **Deployment:**
 - Render (Frontend & Backend)
 - MongoDB Atlas (Database)
-- 
-## 🌐 Live Demo
-Frontend: [https://jobflare-client.onrender.com](https://jobflare-client.onrender.com)  
-Backend API: [https://jobflare.onrender.com](https://jobflare.onrender.com)
-
-
-
+- Cloudinary (media assets)
