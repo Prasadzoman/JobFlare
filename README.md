@@ -40,27 +40,28 @@ Backend API: [https://jobflare.onrender.com](https://jobflare.onrender.com)
 - Render (Frontend & Backend)
 - MongoDB Atlas (Database)
 - Cloudinary (media assets)
-
-  ![Screenshot 2025-06-06 175924](https://github.com/user-attachments/assets/9fed69ce-5ba8-4426-b9e4-a4d9c147b240)
-  
-
+---
+![Screenshot 2025-06-06 175924](https://github.com/user-attachments/assets/9fed69ce-5ba8-4426-b9e4-a4d9c147b240)
+ 
+---
 ![Screenshot 2025-06-06 180107](https://github.com/user-attachments/assets/41374422-e3d4-4d6a-8b03-2ab68c500daf)
 
-
+---
 ![Screenshot 2025-06-06 180139](https://github.com/user-attachments/assets/36ff1c0d-7365-4dc8-b62d-0ce48fe94bb1)
 
-
+---
 ![Screenshot 2025-06-06 180339](https://github.com/user-attachments/assets/8481da72-e73d-46ed-bf98-f2f464ab583f)
 
-
+---
 ![Screenshot 2025-06-06 180448](https://github.com/user-attachments/assets/c4e7a1a5-912f-4ab5-acc9-9b75730bb5af)
 
-
+---
 ![Screenshot 2025-06-06 180524](https://github.com/user-attachments/assets/5e768d60-a439-473c-8284-467c8bfbcc11)
 
-
+---
 ![Screenshot 2025-06-06 180524](https://github.com/user-attachments/assets/789d5ecf-8d65-495d-9710-b760de9ce95c)
 
-
+---
 ![Screenshot 2025-06-06 180730](https://github.com/user-attachments/assets/22dfd535-9cad-419b-952f-88b3dbcbc2b5)
 
+---
